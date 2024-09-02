@@ -45,7 +45,7 @@ module load anaconda/python-3.9.7/2021.11
 python /users/gxb18167/EEG-To-Text-Original/eval_decoding.py \
     --checkpoint_path ./checkpoints/decoding/best/task1_task2_taskNRv2_finetune_BrainTranslator_skipstep1_b32_20_30_5e-05_5e-07_unique_sent.pt \
     --config_path ./config/decoding/task1_task2_taskNRv2_finetune_BrainTranslator_skipstep1_b32_20_30_5e-05_5e-07_unique_sent.json \
-    -cuda cuda:0 -tf True -n False
+    -cuda cuda:0 -tf False -n False
 # Do not change the line below
 #=========================================================sbat
 /opt/software/scripts/job_epilogue.sh
