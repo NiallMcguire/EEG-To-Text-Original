@@ -42,7 +42,7 @@ module load anaconda/python-3.9.7/2021.11
 #Modify the line below to run your program. This is an example
 #=========================================================
 
-python /users/gxb18167/EEG-To-Text/train_decoding.py --model_name BrainTranslator \
+python /users/gxb18167/EEG-To-Text-Original/train_decoding.py --model_name BrainTranslator \
     --task_name task1_task2_taskNRv2 \
     --one_step \
     --pretrained \
